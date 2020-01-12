@@ -1,0 +1,385 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.principal {
+    height: 100vh;
+    width: 100vw;
+}
+
+.principal-moda {
+    max-height: 100vh;
+    width: 100vw;
+}
+
+#s1{
+    background-image: url(../img/principal.jpg);
+    background-size: cover;
+    background-position-y: -450px;
+}
+
+#s2{
+    background-image: url(../img/moda_mujer.jpg);
+    background-size: cover;
+    background-repeat: unset;
+}
+#s3{
+    background-image: url(../img/moda_hombre.jpg);
+    background-size: cover;
+    background-position-y: -450px;
+}
+#s4{
+    background-image: url(../img/tendencias.jpg);
+    background-size: cover;
+}
+#s5{
+    background-image: url(../img/curiosidades.jpg);
+    background-size: cover;
+}
+#s6{
+    background-image: url(../img/entrevistas.jpg);
+    background-size: cover;
+}
+#s7{
+    background-image: url(../img/news.jpg);
+    background-size: cover;
+    background-position-y: -550px;
+}
+#s8{
+    background-image: url(../img/contacto.jpg);
+    background-size: cover;
+}
+
+ol{
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin: 0 25px;
+}
+
+nav {
+    display: flex;
+    padding-top: 5vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 100px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.principal-nav{
+    margin: 0 12%;
+}
+
+.contenedor-inicio{
+    display: flex;
+    padding: 0 0;
+    height: 80vh;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.derecha-principal{
+    display: flex;
+    height: 60%;
+    padding: 2%;
+    width: 35vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.derecha-principal a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    height: 15%;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.derecha-principal p{
+    width: 80%;
+    font-weight: bold;
+}
+
+.suscribete{
+    position: absolute;
+    bottom: 0;
+    width: 45%;
+    left: 0;
+    height: 15%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fromulario-suscribete{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imput-text-suscribete{
+    height: 40px;
+    border-radius: 25px;
+    text-align: center;
+    outline: none;
+    border: none;
+    width: 35%;
+}
+
+.boton-suscribete{
+    height: 40px;
+    border-radius: 25px;
+    outline: none;
+    background-color: rgb(125, 125, 255);
+    color: black;
+    width: 20%;
+    border: none;
+}
+
+.derecha-principal img {
+    width: 10%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.derecha-principal h2{
+    color: white;
+}
+
+.izquierda-principal{
+    display: flex;
+    height: 100%;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.izquierda-principal img {
+    width: 493px;
+    height: 155px;
+}
+
+.video {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.video-moda{
+    outline: none;
+}
+
+.articulos-moda{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px 5%;
+}
+
+.moda-elemento {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 10px;
+    height: 400px;
+    width: 300px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.img-moda{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    height: 30%;
+}
+
+.contenedor-elemento-moda{
+    padding: 20px;
+}
+
+.tendencias-contenedor-img {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 10%;
+}
+
+.hover-tendencias {
+    border-radius: 10px;
+    width: 15%;
+    height: 300px;
+    background-color: rgb(125, 125, 255);
+}
+
+.tendencias-contenedor-img img {
+    border-radius: 10px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.tendencias-contenedor-img img:hover{
+    opacity: 0.5;
+}
+
+.tendecias-contendor {
+    width: 80%;
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 10%;
+}
+
+.gracias-contendor {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    padding: 50px 10%;
+}
+
+.tendencia{
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 40px 0;
+    align-items: center;
+}
+
+.entre{
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 40px 0;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.texto-entre{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.entre img{
+    object-fit: cover;
+    height: 400px;
+    max-width: 100%;
+    border-radius: 20px;
+    padding: 5%;
+}
+
+.tendencia img{
+    object-fit: cover;
+    height: 100%;
+    width: 20%;
+    border-radius: 20px;
+    padding: 5%;
+}
+
+.texto-tendencia{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.texto-tendencia a {
+    color: black;
+    font-weight: bold;
+}
+
+.form-consulta {
+    max-width: 500px;
+    background: rgba(238, 238, 238, 0.5);
+    padding: 25px;
+    border-radius: 10px;
+}
+.campo-form {
+    width:100%;
+    height:36px;
+    margin:2px 0 6px;
+    padding-left:6px;
+    box-sizing: border-box;
+    border-radius:3px;
+    border:0;
+    font-size:1em;
+}
+
+label span {
+    color: #f00
+}
+textarea {
+    min-height: 150px!important;
+}
+.btn-form {
+    display: inline-block;
+    border:0;
+    background: #000;
+    height: 46px;
+    line-height: 46px;
+    padding: 0 20px;
+    border-radius: 6px;
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px
+}
+.btn-form:hover {
+    background: #444
+}
+
+.formulario-contacto{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+}

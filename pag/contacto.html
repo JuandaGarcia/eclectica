@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Eclectica</title>
+</head>
+<body>
+  <div class="principal" id="s8">
+      <nav>
+          <figure>
+            <img class="logo" src="../img/logo.png" alt="logo">
+          </figure>
+          <ol class="principal-nav">
+              <li>
+                <a href="../index.html">Inicio</a>
+              </li>
+              <li>
+                <a href="moda-mujer.html">Moda Mujer</a>
+              </li>
+              <li>
+                <a href="moda-hombre.html">Moda Hombre</a>
+              </li>
+              <li>
+                <a href="tendencias.html">Tendencias</a>
+              </li>
+              <li>
+                <a href="curiosidades.html">Curiosidades</a>
+              </li>
+              <li>
+                <a href="entrevistas.html">Entrevistas</a>
+              </li>
+              <li>
+                <a href="news.html">News</a>
+              </li>
+              <li>
+                <a href="contacto.html">Contacto</a>
+              </li>
+            </ol>
+        </nav>
+        <div class="formulario-contacto">
+          <form action="../envia.php" method="post" class="form-consulta"> 
+              <label>Nombre y apellido: <span>*</span>
+                <input type="text" name="nombre" placeholder="Nombre y apellido" class="campo-form" required>
+              </label>
+              
+              <label>Email: <span>*</span>
+                <input type="email" name="email" placeholder="Email" class="campo-form" required>
+              </label>
+              
+              <label>Mensaje:
+                <textarea name="mensaje" class="campo-form"></textarea>
+              </label>
+          
+              <input type="submit" value="Enviar" class="btn-form">
+            </form>
+        </div> 
+  </div>
+</body>
+</html>
